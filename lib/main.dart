@@ -87,6 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       if(expanded)
                         setState(() {
                           selected = i;
+                          print(vehicles[i].title);
                         });
                       else setState(() {
                         selected = -1;
